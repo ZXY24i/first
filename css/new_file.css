@@ -14,6 +14,9 @@
 	left:0;
 	background-color: rgba(0,0,0,0.3);
 }
+.bg-top{
+	object-fit: cover;
+}
 /* .xuanyan{
 	flex-direction: column;
 	position:absolute;
@@ -22,16 +25,13 @@
 	width:455x;
 	z-index:25;
 } */
-.nav{
+.nav-one{
 	position:absolute;
 	top:0;
 	left:0;
 	right:0;
 	margin: auto;
 	justify-content: space-between
-}
-.three{
-	height:200px;
 }
 .four_area{
 	background: #1B1F25;
@@ -46,8 +46,8 @@
  	left: 0;
  	right: 0;
  }
- .right{
-	height: 300px;
+.three{
+	height: 254px;
  }
  .yinying{
 	 height:100%;
@@ -56,4 +56,12 @@
 
 .five1{
 	clip-path: polygon(5% -492%, 100% 0%, 0% 675%, 0% 0%);
+}
+.img1{
+	position:relative;
+}
+.text_six{
+	position:absolute;
+	top:20%;
+	left:15%;
 }
